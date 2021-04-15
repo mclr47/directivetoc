@@ -1,0 +1,86 @@
+.example-viewport {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+  }
+  
+  .example-item {
+    height: 50px;
+  }
+  .example-viewport {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+  }
+  
+  .example-item-detail {
+    height: 18px;
+  }
+  
+  .example-alternate {
+    background: rgba(127, 127, 127, 0.3);
+  }
+  .active-fragment{
+      position: sticky;
+  }
+  .active-fragment{
+    position: fixed;
+    margin-left: 250px;
+    z-index: 5;
+    background-color: gold;
+  }
+  .scrollToRight{
+    margin-left: 1500px;  
+    position: fixed;
+    z-index: 50;
+    background-color: greenyellow;
+  }
+  .first-scroll{
+    position: fixed;
+    z-index: 50;
+    background-color: greenyellow;
+
+  }
+
+ul li::marker{
+  color:green;
+  background-color: khaki;
+  font-weight: 900;
+}
+ul li:hover::marker{
+  color:midnightblue;
+  font-weight: 900;
+}
+/* .mainContainer{
+  overflow: auto;
+  white-space:nowrap;
+} */
+  .mainContainer{
+    /* height: calc(100vh); */
+  /* overflow-x: scroll; */
+  /* position: absolute; */
+/* overflow: scroll;
+overscroll-behavior-x:inherit; */
+ overscroll-behavior: inherit; 
+display:inline-flexbox;
+overflow: auto;
+/* white-space: nowrap; */
+  }
+
+  .activeIndex{
+    background-color: indigo;
+    color:lightgoldenrodyellow;
+    font-weight: 900;
+  }
+  .activeIndex::marker{
+    background-color: rgb(221, 38, 13);
+    color: yellow;
+    font-weight: 900;
+  }
+  
+  /* .router-link-active
+  {background-color: orange;
+  color:green;} */
+  /* .cdk-scroll-class{
+    min-height: 100%;
+  } */
